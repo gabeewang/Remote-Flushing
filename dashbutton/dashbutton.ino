@@ -12,8 +12,8 @@ unsigned long duration = 500; // 500毫秒的持續時間
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-const char* ssid = "wjw";
-const char* password = "1234223432";
+const char* ssid = "Your Wi-Fi SSID";
+const char* password = "Your Wi-Fi Password";
 
 const char* mqtt_server = "test.mosquitto.org";
 String topic = "F112119108/Home/Restroom/Toilet/AutoFlush";
